@@ -1,0 +1,279 @@
+*{
+    text-align: center;
+    background-color:#7a1a72;
+    list-style: none;
+    padding: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: relative;
+    background-color: pink;
+    color:purple;
+    height: fit-content;
+}
+.navbar h1 {
+    background-color: pink;
+    font-size: 34px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:purple;
+}
+.nav-links {
+   list-style: none;
+    display: flex; 
+    background-color: pink;
+    color:purple;
+}
+.nav-links li {
+    margin: 0 15px;
+    background-color: pink;
+}
+.nav-links a {
+    color:purple;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    background-color: pink;
+}
+.nav-links a:hover {
+    color: #d44ce0;
+    text-shadow: 0px 0px 10px #7a1a72;
+}
+.main-page{
+    background-color: #7a1a72;
+    height: 95vh;
+    display: block;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    padding: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 9rem;
+}
+.main-page img{
+    size: 75vh;
+}
+.main-page h1{
+    font-size: 8rem;
+    -webkit-text-stroke:white;
+    -webkit-text-stroke-color: #d44ce0;
+    -webkit-text-stroke-width: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-page p{
+    padding-left: 9rem;
+    padding-right: 9rem;
+    background-color: #d44ce0;
+    color:black;
+    font-size: large;
+}
+/* Button */
+.btn{
+    font-size: 1rem;
+    padding: 15px 25px;
+    background: #d44ce0;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.btn :hover{
+    animation: forwards 2s ease-in-out;
+    opacity: 50%;
+    background-color: black;
+    color: white;
+}
+.Detailings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: relative;
+    background-color:#d44ce0;
+    height: fit-content;
+    flex-direction: column;
+    height: 100vh;
+}
+.status{
+    background-color: #d44ce0;
+    color: #7a1a72;
+    margin-top: 2rem;
+}
+.status h2{
+    font-size: 4rem;
+    background-color: #d44ce0;
+    color: #7a1a72;
+    -webkit-text-stroke:darkgray;
+    -webkit-text-stroke-width: 0.6px;
+    text-underline-offset:initial;
+
+}
+.status li{
+    font-size: 1.5rem;
+    background-color: #d44ce0;
+}
+.skills{
+    background-color: #d44ce0;
+    color: #7a1a72;
+}
+.skills h2{
+    font-size: 4rem;
+    background-color: #d44ce0;
+    color: #7a1a72;
+    -webkit-text-stroke:darkgray;
+    -webkit-text-stroke-width: 0.6px;
+    text-underline-offset:initial;
+}
+.skills li{
+    font-size: 1.5rem;
+    background-color: #d44ce0;
+}
+.Detailings strong{
+    color: #7a1a72;
+    background-color: #d44ce0;
+}
+.Education{
+    background-color: #d44ce0;
+    color: #7a1a72;
+}
+.Education h3{    
+    font-size: 4rem;
+    background-color: #d44ce0;
+    color: #7a1a72;
+    -webkit-text-stroke:darkgray;
+    -webkit-text-stroke-width: 0.6px;
+    text-underline-offset:initial;
+}
+.Education li{
+    font-size: 1.5rem;
+    background-color: #d44ce0;
+}
+.key-projects{
+    text-align: center;
+    padding: 80px 20px;
+    height: fit-content;
+}
+.Project-container h2{
+    font-size: 6rem;
+    -webkit-text-stroke-color: #d44ce0;
+    -webkit-text-stroke-width: 0.2rem;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem; margin-top: none;
+}
+.Project-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+.project-card{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color:#d44ce0;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.project-card h3{
+    background-color:#d44ce0;
+    color:#7a1a72;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.project-card h4{
+    color: #7a1a72;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    background-color:#d44ce0;
+}
+#project-card p{
+    background-color:#d44ce0;
+    font-size: 1rem;
+    color: black;
+    padding: 8px 10px;
+    /* It would be likely to add an animation right here in the projects column*/
+}
+
+/* Button TIME!! */
+#btn-II{
+    height: 4rem;
+    width: 10rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    color: #d44ce0;
+}
+#btn-II:hover{
+    opacity: 50%;
+    color: white;
+    background-color: black;
+}
+
+/* The Contact Section OR Feedback Section */ 
+.Feedback_{
+    
+    max-width: 600px;
+    margin: auto;
+   
+    animation: fadeInUp 1s ease-in-out forwards;
+
+    background: #d44ce0;
+    padding: 5rem;
+    color: #fff;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.Feedback_ h2, form{
+    background-color: #d44ce0;
+}
+.Feedback_ h2{
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-color:#7a1a72;
+    -webkit-text-stroke-width: 0.2rem;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem; margin-top: none;
+}
+.Feedback_ input {
+    height: 5rem;
+    width: 25rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+#id-III{
+    
+    height: 4rem;
+    width: 10rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    color: #d44ce0;
+}
+#btn-III:hover{
+    opacity: 50%;
+    color: white;
+    background-color: black;
+}
+
+

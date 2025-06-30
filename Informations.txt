@@ -1,0 +1,44 @@
+COURSERA - Build A Portfolio Website
+
+1. Personal Details : 
+--> Name : Neha Patel  
+--> Location : Pune, India
+--> Experience : 4+ years in Web Development & UI/UX
+--> Current Role: Senior Frontend Engineer at INNOVEX Solutions
+--> Email: neha.patel@example.com
+--> LinkedIn: linkedin.com/in/neha-patel
+--> Github: github.c
+
+2. Skills:
+--> Languages: JavaScript, TypeScript, Python, HTML5, CSS3
+--> Frameworks & Libraries: React.js, Next.js, Vue.js, Tailwind CSS 
+--> Tools: Git, Figma, VSCode, Postman, Webpack
+--> DataBases : MongoDB, Firebase
+
+3. Key Projects:
+--> EduConnect -- Online Learning Platform 
+                o Role: Lead Frontend Engineer
+                o Designed intuitive UI with React.js + Tailwind CSS
+                o Implemented video chat player and real-time chat functionality
+--> ShopEase -- E-Commerce App
+                o Role: Full stack web developer 
+                o  Developed responsive frontend with Next.js 
+                o Backend powered by Express.js and MongoDB
+--> Travelly -- Travel Itinerary Builder
+                o Role: Personal Project 
+                o Build with Vue.js and Firebase for quick deployment                o Added collaborative features like itinerary sharing and PDF export
+
+4. Education: 
+--> B.Tech in Information Technology
+--> Graduated in 2021 from MIT, Pune 
+
+5. Achievements:
+--> Google  Developer Group speaker at "Web Dev Con 2023"
+--> Top 10% on LeetCode (400+ questions)
+--> Mentors for girls learning to code via local coding club
+
+6. Personal Interests:
+--> Passionate about UI animations and accessibility 
+--> Enjoys panting and digital art
+--> Love long-distance cycling and nature hikes
+            
